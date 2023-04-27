@@ -12,3 +12,7 @@ jobs:
         chmod +x test_removal.sh
         ./test_creation.sh
         ./test_removal.sh
+    - name: Тест на лоха
+      run: |
+        chmod +x test_script.sh
+        ./test_script.sh
